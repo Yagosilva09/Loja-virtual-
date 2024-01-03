@@ -1,1 +1,58 @@
-    
+*{
+    font-family: 'Montserrat';
+}
+
+html{
+    background-color: #f2f2f2;
+}
+
+header{
+    box-shadow: 2px 13px 46px -18px rgba(0,0,0,0.1);
+}
+
+nav, ul{
+    display: flex;
+}
+
+nav{
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: #808B96;
+    font-weight: 500;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+}
+
+header nav ul li{
+    list-style: none;
+    margin: 0 20px 0 0;
+    font-size: 24px;
+}
+
+header nav ul, nav{
+    display: flex;
+    align-items: center;
+}
+
+.imgRedonda{
+    width: 50px;
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #e7e7e7;
+    color: #292929;
+}
+
+img{
+        width: 100%;
+        height: 100%;
+}
